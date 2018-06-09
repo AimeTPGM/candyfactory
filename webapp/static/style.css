@@ -1,0 +1,21 @@
+.candy-list {
+    display: flex;
+    padding: 10px;
+}
+
+.flavor {
+    font-weight: bold;
+    width: 20%;
+}
+
+.desc {
+    width: 80%;
+}
+
+form {
+    display: inline-grid;
+}
+
+form button {
+    margin-top: 10px;
+}

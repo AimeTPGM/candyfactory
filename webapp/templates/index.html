@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for candy in candyList %}
+<div class="candy-list">
+    <div class="flavor">
+        <a href="{% url 'edit' pk=candy.pk %}">{{candy.flavor}}</a>
+    </div>
+    <div class="desc">
+        {{candy.description}}
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
